@@ -10,7 +10,8 @@ String calcularIMC(double peso, double altura) {
   }
   if (result < 17) {
     return "Magreza moderada";
-  } else if (result < 18.5) {
+  }
+  if (result < 18.5) {
     return "Magreza leve";
   }
   if (result < 25) {
